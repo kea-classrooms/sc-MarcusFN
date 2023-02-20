@@ -2,6 +2,6 @@
 	co = checkout
 	root = rev-parse --show-toplevel
 	tree = log --oneline --all --graph
-	undo = git reset --soft head~1
+	undo = git reset --hard HEAD~1
 [push]
 	default = current
